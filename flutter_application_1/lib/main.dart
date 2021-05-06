@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MyApp());
 }
-
 class MyApp extends StatelessWidget {
   Container MyArticles(
       String imageVal, String heading, String subHeading, String cuerpo) {
@@ -31,6 +30,8 @@ class MyApp extends StatelessWidget {
       ),
     );
   }
+  
+
 
   @override
   Widget build(BuildContext context) {
